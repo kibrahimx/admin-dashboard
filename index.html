@@ -14,7 +14,7 @@
         <ul>
             <li>
                 <a href="#" id="dashboard-a">
-                    <img src="./assets/svg/bar-chart-outline.svg" alt="data svg">
+                    <img src="./assets/svg/bar-chart-outline.svg" id="title-icon" alt="data svg">
                     <span>Dashboard</span>
                 </a>
             </li>
@@ -22,37 +22,37 @@
         <ul>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/home-outline.svg" alt="home svg">
+                    <img src="./assets/svg/home-outline.svg" class="white icon" alt="home svg">
                     <span>Home</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/person-outline.svg" alt="profile svg">
+                    <img src="./assets/svg/person-outline.svg" class="white icon" alt="profile svg">
                     <span>Profile</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/paper-plane-outline.svg" alt="messages svg">
+                    <img src="./assets/svg/paper-plane-outline.svg" class="white icon" alt="messages svg">
                     <span>Messages</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/time-outline.svg" alt="history svg">
+                    <img src="./assets/svg/time-outline.svg" class="white icon" alt="history svg">
                     <span>History</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/document-outline.svg" alt="tasks svg">
+                    <img src="./assets/svg/document-outline.svg" class="white icon" alt="tasks svg">
                     <span>Tasks</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/people-outline.svg" alt="communities svg">
+                    <img src="./assets/svg/people-outline.svg" class="white icon" alt="communities svg">
                     <span>Communities</span>
                 </a>
             </li>
@@ -60,52 +60,64 @@
         <ul>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/settings-outline.svg" alt="settings svg">
+                    <img src="./assets/svg/settings-outline.svg" class="white icon" alt="settings svg">
                     <span>Settings</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/help-circle-outline.svg" alt="support svg">
+                    <img src="./assets/svg/help-circle-outline.svg" class="white icon" alt="support svg">
                     <span>Support</span>
                 </a>
             </li>
             <li>
                 <a href="#">
-                    <img src="./assets/svg/shield-checkmark-outline.svg" alt="privacy svg">
+                    <img src="./assets/svg/shield-checkmark-outline.svg" class="white icon" alt="privacy svg">
                     <span>Privacy</span>
                 </a>
             </li>
         </ul>
     </nav>
-    <div>
+    <main>
         <header>
-            <div>
-                <input type="search">
+            <div id="top-head">
+                <div id="search-bar">
+                    <img class="icon" src="./assets/svg/search-outline.svg" alt="search svg">
+                    <input type="search">
+                </div>
+                <div>
+                    <img src="./assets/svg/notifications-outline.svg" class="icon" alt="notification svg">
+                    <img class="logo" src="./assets/images/wolf.png" alt="logo png">
+                    <span>Account</span>
+                </div>
             </div>
-            <div>
-                <p>Hi there,</p>
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
+            <div id="bottom-head">
+                <img class="logo" src="./assets/images/wolf.png" alt="logo png">
+                <div>
+                    <span>Hi there,</span><br>
+                    <span>Account (@account)</span>
+                </div>
+                <div>
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
+                </div>
             </div>
         </header>
-        <main>
+        <div>
+            <div>
+                <h3>Your Projects</h3>
+            </div>
             <div>
                 <div>
-                    <h3>Your Projects</h3>
+                    <h3>Announcements</h3>
                 </div>
                 <div>
-                    <div>
-                        <h3>Announcements</h3>
-                    </div>
-                    <div>
-                        <h3>Trending</h3>
-                    </div>
+                    <h3>Trending</h3>
                 </div>
             </div>
-        </main>
-    </div>
+        </div>
+    </main>
 </body>
 
 </html>
