@@ -5,6 +5,11 @@
     margin: 0;
 }
 
+:root {
+    --blue: #006ee6;
+    --gray: rgb(220, 220, 220);
+}
+
 body {
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -13,7 +18,7 @@ body {
 button {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: #006ee6;
+    background-color: var(--blue);
     border: none;
     cursor: pointer;
     width: 90px;
@@ -44,18 +49,19 @@ li a span, .icon, #title-icon {
 }
 
 header {
-    background-color: red;
+    background-color: white;
     height: 20%;
+    box-shadow: 0px 1px 5px rgb(175, 175, 175);
 }
 
 main:nth-child(2) {
-    background-color: green;
+    background-color: var(--gray);
 }
 
 nav {
     width: 20vw;
     height: 100vh;
-    background-color: #006ee6;
+    background-color: var(--blue);
 }
 
 main {
@@ -81,7 +87,9 @@ main {
     height: 25px;
     border-radius: 15px;
     border: none;
-    background-color: gainsboro;
+    background-color: var(--gray);
+    padding: 0 10px;
+    margin: 0 10px;
 }
 
 #top-head {
@@ -94,6 +102,7 @@ main {
 #top-head div {
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
 .logo {
@@ -116,5 +125,4 @@ main {
 #bottom-head {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
