@@ -14,6 +14,7 @@
     background-color: white;
     border-radius: 10px;
     margin-top: 10px;
+    padding: 30px 30px;
 }
 
 .project-box {
@@ -73,7 +74,7 @@ main:nth-child(2) {
 
 nav {
     width: 20vw;
-    height: 100vh;
+    height: 1000px;
     background-color: var(--blue);
 }
 
@@ -84,7 +85,6 @@ nav ul {
 
 main {
     width: 80vw;
-    height: 100vh;
 }
 
 #dashboard-a img {
@@ -196,23 +196,20 @@ main {
 }
 
 #projects-container {
-    width: 60vw;
+    width: 750px;
 }
 
 #projects {
     margin-top: 10px;
-    width: 900px;
-    height: 505px;
+    width: 750px;
 }
 
 #announcements {
-    width: 250px;
-    height: 225px;
+    width: 240px;
 }
 
 #trending {
-    width: 250px;
-    height: 225px;
+    width: 240px;
 }
 
 .container span {
@@ -250,4 +247,51 @@ main {
 
 .paragraph-margin-top {
     margin-top: 5px;
+}
+
+.announcement-strong {
+    font-size: smaller;
+}
+
+.announcement-paragraph {
+    font-size: x-small;
+    color: gray;
+}
+
+.divers-margin {
+    margin: 0 30px;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.announcements {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.trending {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.small-logo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    object-fit: cover;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gray {
+    color: gray;
+}
+
+.margin-right {
+    margin-right: 10px;
 }
